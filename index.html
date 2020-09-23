@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14 - Border, Margin e Padding</title>
+
+    <style>
+        p.pontinho {
+            border-style: dotted; 
+        }
+
+        p.trace {
+            border-style: dashed;
+        }
+
+        p.solida{
+            border-style: solid;
+        }
+
+        p.dupla{
+            border-style: double;
+        }
+
+        p.ranhura{
+            border-style: groove;
+        }
+
+        p.cume{
+            border-style: ridge;
+        }
+
+        p.inserida{
+            border-style: inset;
+        }
+
+        p.inicial{
+            border-style: outset;
+        }
+
+        p.nenhum{
+            border-style: none;
+        }
+
+        p.oculta{
+            border-style: hidden;
+        }
+
+        p.mista{
+            border-style: dotted groove double solid;
+        }
+
+        p.largura{
+            border-style: solid;
+            border-width: 1px 4px 8px 12px;
+        }
+
+        p.colorida{
+            border-style: solid;
+            border-color: rgb(0, 17, 255);
+        }
+
+        p.lados{
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: groove;
+            border-left-style: solid;
+        }
+
+        p.agrupado{
+            border-bottom: 4px solid rgb(255, 0, 191);
+            background-color: rgb(220, 235, 17);
+        }
+
+        p.lado1{
+            border-left: 12px solid green;
+        }
+
+        p.arredondado{
+            border: 6px solid lightskyblue;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Exemplo de Bordas</h2>
+    <p class="pontinho">Uma borda com pontinhos</p>
+    <p class="trace">Uma borda tracejada</p>
+    <p class="solida">Uma borda solida</p>
+    <p class="dupla">Uma borda com dupla</p>
+    <p class="ranhura">Uma borda com ranhura</p>
+    <p class="cume">Uma borda com cume</p>
+    <p class="inserida">Uma borda inserida</p>
+    <p class="inicial">Uma borda inicial</p>
+    <p class="oculta">Uma borda oculta</p>
+    <p class="mista">Uma borda com ate 4 lados diferentes</p>
+    <p class="nenhum">Sem Borda</p>
+    <p class="largura">Uma borda com larguras diferentes</p>
+    <p class="colorida">Borda Colorida</p>
+    <p class="lados">Lados individuais da borda</p>
+    <p class="agrupado">Uma borda mas com a propriedade agrupada no css</p>
+    <p class="lado1">tipo um topico</p>
+    <p class="arredondado">Uma borda arredondadas</p>
+</body>
+</html>
